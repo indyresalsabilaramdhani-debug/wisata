@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Kawah Putih Bandung</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        header, nav, footer {
+            background-color: #2c6e49;
+            color: white;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid #333;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        aside {
+            background-color: #f4f4f4;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Wisata Alam Kawah Putih</h1>
+    <p style="color: yellow;">Destinasi wisata alam populer di Bandung Selatan</p>
+</header>
+
+<nav id="main-navigation">
+    <a href="#deskripsi">Deskripsi</a>
+    <a href="#fasilitas">Fasilitas</a>
+    <a href="#itinerary">Itinerary</a>
+    <a href="#harga">Harga</a>
+    <a href="#media">Media</a>
+</nav>
+
+<main>
+
+<section id="deskripsi">
+<article>
+    <h2>Deskripsi Wisata</h2>
+
+    <p>
+        <strong>Kawah Putih</strong> merupakan salah satu destinasi wisata alam yang terletak
+        di kawasan <em>Ciwidey, Kabupaten Bandung</em>. Tempat ini terkenal dengan danau kawah
+        berwarna putih kehijauan yang berasal dari aktivitas vulkanik <strong>Gunung Patuha</strong>.
+    </p>
+
+    <p>
+        Keindahan Kawah Putih menciptakan suasana yang <mark>unik dan eksotis</mark>,
+        sehingga sering dijadikan lokasi wisata keluarga dan fotografi.
+        Udara di sekitar kawasan ini sejuk dan nyaman bagi pengunjung.
+    </p>
+
+    <p>
+        📍 Lokasi:
+        <a href="https://maps.google.com/?q=Kawah+Putih+Ciwidey" target="_blank">
+            Lihat di Google Maps
+        </a>
+    </p>
+</article>
+</section>
+
+<section id="fasilitas">
+    <h2>Fasilitas Wisata</h2>
+    <ul>
+        <li>Area parkir</li>
+        <li>Toilet umum</li>
+        <li>Warung makan</li>
+        <li>Spot foto</li>
+        <li>Shuttle ontang-anting</li>
+    </ul>
+</section>
+
+<section id="itinerary">
+    <h2>Rencana Perjalanan</h2>
+    <ol>
+        <li>Perjalanan menuju Ciwidey</li>
+        <li>Tiba di area parkir Kawah Putih</li>
+        <li>Naik shuttle ke area kawah</li>
+        <li>Menikmati pemandangan</li>
+        <li>Kembali ke area parkir</li>
+    </ol>
+</section>
+
+<section id="harga">
+    <h2>Harga Tiket Masuk</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Kategori</th>
+                <th colspan="2">Harga</th>
+            </tr>
+            <tr>
+                <th>Anak-anak</th>
+                <th>Dewasa</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Domestik</td>
+                <td>Rp15.000</td>
+                <td>Rp30.000</td>
+            </tr>
+            <tr>
+                <td>Mancanegara</td>
+                <td>Rp50.000</td>
+                <td>Rp75.000</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Harga dapat berubah sewaktu-waktu</td>
+            </tr>
+        </tfoot>
+    </table>
+</section>
+
+<section id="media">
+    <h2>Media Wisata</h2>
+
+    <h3>Galeri Foto</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Kawah_Putih_Ciwidey.jpg"
+         alt="Kawah Putih Ciwidey"
+         title="Kawah Putih Bandung">
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Kawah_Putih_2014.jpg"
+         alt="Kabut di Kawah Putih"
+         title="Suasana Kawah Putih">
+
+    <h3>Video Promosi</h3>
+    <video controls width="400">
+        <source src="SnapTik.Net_7402939886556155141.mp4" type="video/mp4">
+        Browser Anda tidak mendukung video.
+    </video>
+
+    <h3>Audio Latar</h3>
+    <audio controls>
+        <source src="SnapTik.Net_7524322046751395078.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung audio.
+    </audio>
+</section>
+
+<aside>
+    <h2>Tips Berkunjung</h2>
+    <p>
+        Gunakan masker karena bau belerang cukup kuat dan datanglah
+        pada pagi hari untuk mendapatkan pemandangan terbaik.
+    </p>
+</aside>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Website Wisata Kawah Putih</p>
+</footer>
+
+<!--
+REFLEKSI:
+1. <section> digunakan untuk konten bermakna, sedangkan <div> hanya sebagai pembungkus.
+2. Atribut alt penting untuk aksesibilitas dan ketika gambar gagal dimuat.
+3. Meta viewport membuat tampilan menyesuaikan ukuran layar perangkat.
+-->
+
+</body>
+</html>
